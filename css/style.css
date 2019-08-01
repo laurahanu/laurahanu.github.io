@@ -235,10 +235,10 @@ hr {
 .timeline:before {
 	content: "";
 	position: absolute;
-	top: 0;
-	bottom: 0;
+	top: 0px;
+	bottom: 0px;
 	left: 40px;
-	width: 2px;
+	width: 1px;
 	margin-left: -1.5px;
 	background-color: #fff;
 }
@@ -324,7 +324,7 @@ hr {
 	font-size: 20px;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 /* Contact Section */
 #contact {
