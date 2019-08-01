@@ -144,7 +144,7 @@ hr {
 	border-color: #fff;
 	padding: 10px 20px;
 	margin: 0;
-	font-size: 18px;
+	font-size: 20px;
 	border-radius: 0;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
@@ -157,7 +157,8 @@ hr {
 	background-color: #94aaaa;
 	padding: 10px 20px;
 	border-color: #94aaaa;
-	border-radius: 0;
+	border-radius: 4;
+	font-size: 16px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
@@ -219,7 +220,7 @@ hr {
 	transition: all 0.5s;
 }
 #about .social i.fa:hover {
-	color: #fff;
+	color: #b9d5d5;
 }
 /* Resume Section */
 #resume {
@@ -437,7 +438,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #footer {
 	background: #a6bfbf;
 	color: #fff;
-	padding: 30px 0 25px 0;
+	padding: 20px 0 20px 0;
 }
 #footer p {
 	font-size: 13px;
