@@ -237,9 +237,9 @@ hr {
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
-	left: 40px;
+	left: 0px;
 	width: 1px;
-	margin-left: -1.5px;
+	margin-left: 0px;
 	background-color: #fff;
 }
 .timeline>li {
@@ -258,12 +258,12 @@ hr {
 	float: right;
 	position: relative;
 	width: 100%;
-	padding: 0 20px 0 100px;
+	padding: 0 0px 0 100px;
 	text-align: left;
 }
 .timeline>li .timeline-panel:before {
 	right: auto;
-	left: -15px;
+	left: 0px;
 	border-right-width: 15px;
 	border-left-width: 0;
 }
@@ -326,9 +326,136 @@ hr {
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 10px;
 }
+/* Portfolio Section */
+#portfolio {
+	padding: 0px 0px 70px 0px;
+	background: #f6f6f6; /* Old browsers */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f6f6f6', GradientType=0 ); /* IE6-9 */
+}
+.categories {
+	padding-bottom: 60px;
+	text-align: center;
+}
+ul.cat li {
+	display: inline-block;
+}
+ol.type li {
+	display: inline-block;
+	margin-left: 0px;
+}
+ol.type li a {
+	background: #f6f6f6;
+	color: #fff;
+	padding: 36px 14px;
+}
+ol.type li a.active {
+	background: #121d1f;
+	color: #fff;
+}
+ol.type li a:hover {
+	background: #121d1f;
+	color: #fff;
+}
+.isotope-item {
+	z-index: 2
+}
+.isotope-hidden.isotope-item {
+	z-index: 1
+}
+.isotope, .isotope .isotope-item {
+	/* change duration value to whatever you like */
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope-item {
+	margin-right: -1px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.isotope {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	transition-property: transform, opacity;
+}
+.portfolio-item {
+	margin: 20px 20px 20px 20px;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+.portfolio-item:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.portfolio-item .hover-bg {
+	height: 260px;
+	overflow: hidden;
+	position: relative;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.66);
+	padding: 33% 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text>h4 {
+	opacity: 0;
+	color: #fff;
+	font-weight: 400;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>h4 {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.hover-bg .hover-text>i {
+	opacity: 0;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>i {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+#portfolio i.fa {
+	font-size: 50px;
+	padding: 30px;
+	color: #f6f6f6;
+}
 /* Contact Section */
 #contact {
-	padding: 10px 0 40px 0;
+	padding: 40px 0 40px 0;
 	color: #fff;
 	background: #819595;
 }
@@ -345,7 +472,7 @@ hr {
 	color: #fff;
 }
 #contact form {
-	padding: 30px 0;
+	padding: 10px 0;
 }
 #contact i.fa {
 	color: #fff;
@@ -364,7 +491,7 @@ label {
 #contact .form-control {
 	display: block;
 	width: 100%;
-	padding: 6px 12px;
+	padding: 0px 0px;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #fff;
@@ -401,7 +528,7 @@ color: #fff;
 }
 #contact .social ul li {
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 #contact .social i.fa {
 	font-size: 30px;
@@ -438,7 +565,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #footer {
 	background: #a6bfbf;
 	color: #fff;
-	padding: 20px 0 20px 0;
+	padding: 0px 0 0px 0;
 }
 #footer p {
 	font-size: 13px;
