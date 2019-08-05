@@ -7,11 +7,13 @@ body, html {
 	height: 100% !important;
 }
 h1 {
-	font-weight: 700;
+	font-weight: 600;
+	font-size: 27px;
 }
 h1 strong {
 	font-weight: 900;
 	color: #4a5555;
+	font-size: 27px;
 }
 h2 {
 	line-height: 20px;
@@ -19,7 +21,7 @@ h2 {
 	color: #4a5555;
 	font-weight: 400;
 	margin-bottom: 30px;
-	font-size: 34px;
+	font-size: 30px;
 }
 h3, h4 {
 	color: #4a5555;;
@@ -28,7 +30,7 @@ h3, h4 {
 }
 h5 {
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 20px;
 }
 p.intro {
@@ -96,7 +98,7 @@ hr {
 }
 .navbar-custom .navbar-brand {
 	font-weight: 600;
-	font-size: 25px;
+	font-size: 22px;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
@@ -208,7 +210,7 @@ hr {
 }
 #about .about-text {
 	margin-left: 10px;
-	font-size: 16px;
+	font-size: 15px;
 }
 #about img {
 	border-radius: 50%;
@@ -260,8 +262,8 @@ hr {
 }
 .timeline>li {
 	position: relative;
-	margin-bottom:  0px;
-	min-height: 0px;
+	margin-bottom:60px;
+	min-height: 60px;
 }
 .timeline>li:before, .timeline>li:after {
 	content: " ";
@@ -274,7 +276,7 @@ hr {
 	float: right;
 	position: relative;
 	width: 100%;
-	padding: 0 0px 0 10px;
+	padding: 0 10px 0 70px;
 	text-align: left;
 }
 .timeline>li .timeline-panel:before {
@@ -286,7 +288,7 @@ hr {
 .timeline>li .timeline-panel:after {
 	right: auto;
 	left: -14px;
-	border-right-width: 0px;
+	border-right-width: 15px;
 	border-left-width: 0;
 }
 .timeline>li .timeline-image {
@@ -308,8 +310,8 @@ hr {
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	float: right;
-	padding: 0 10px 0 10px;
-	text-align: left;
+	padding: 0 30px 0 70px;
+	text-align: eft;
 }
 .timeline>li.timeline-inverted>.timeline-panel:before {
 	right: auto;
@@ -319,8 +321,8 @@ hr {
 }
 .timeline>li.timeline-inverted>.timeline-panel:after {
 	right: auto;
-	left: 0px;
-	border-right-width: 0px;
+	left: -14px;
+	border-right-width: 14px;
 	border-left-width: 0;
 }
 .timeline>li:last-child {
