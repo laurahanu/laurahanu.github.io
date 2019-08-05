@@ -344,13 +344,9 @@ hr {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 0px 0px 14px 0px;
+	padding: 0px 0px 24px 0px;
 	background: #f6f6f6; /* Old browsers */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f6f6f6', GradientType=0 ); /* IE6-9 */
-}
-.categories {
-	padding-bottom: 0px;
-	text-align: center;
 }
 ul.cat li {
 	display: inline-block;
@@ -380,9 +376,9 @@ ol.type li a:hover {
 }
 .isotope, .isotope .isotope-item {
 	/* change duration value to whatever you like */
-	-webkit-transition-duration: 0.8s;
-	-moz-transition-duration: 0.8s;
-	transition-duration: 0.8s;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 }
 .isotope-item {
 	margin-right: 0px;
@@ -405,11 +401,11 @@ ol.type li a:hover {
 }
 .portfolio-item {
 	margin: 20px 20px 20px 20px;
-	-webkit-transition: all 0.8s ease-out;
-	-moz-transition: all 0.8s ease-out;
-	-ms-transition: all 0.8s ease-out;
-	-o-transition: all 0.8s ease-out;
-	transition: all 0.8s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
 .portfolio-item:hover {
 	-webkit-transform: scale(1.1);
