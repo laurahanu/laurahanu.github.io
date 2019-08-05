@@ -142,10 +142,25 @@ hr {
 	color: #fff;
 	background-color: transparent;
 	border-color: #fff;
-	padding: 10px 20px;
+	padding: 0px 0px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 0px;
 	border-radius: 0;
+}
+.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 1;
+	  color: #fff;
+	  border-width: 0px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
@@ -154,16 +169,16 @@ hr {
 }
 .btn-primary {
 	color: #fff;
-	background-color: #94aaaa;
-	padding: 10px 20px;
-	border-color: #94aaaa;
+	background-color: #baa5d4;
+	padding: 4px 8px;
+	border-color: #baa5d4;
 	border-radius: 4;
 	font-size: 16px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #b9d5d5;
-	border-color: #b9d5d5;
+	background-color: #d6cff0;
+	border-color: #d6cff0;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -219,6 +234,7 @@ hr {
 	color: #94aaaa;
 	transition: all 0.5s;
 }
+
 #about .social i.fa:hover {
 	color: #b9d5d5;
 }
