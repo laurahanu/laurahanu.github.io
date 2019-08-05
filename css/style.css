@@ -72,11 +72,11 @@ ul, ol {
 	moz-padding: 0;
 }
 hr {
-	height: 4px;
-	width: 70px;
+	height: 2px;
+	width: 50px;
 	text-align: center;
 	position: relative;
-	background: #4a5555;;
+	background: #c4cfcf;;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
