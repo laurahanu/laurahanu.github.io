@@ -344,12 +344,12 @@ hr {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 0px 0px 30px 0px;
+	padding: 0px 0px 14px 0px;
 	background: #f6f6f6; /* Old browsers */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f6f6f6', GradientType=0 ); /* IE6-9 */
 }
 .categories {
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	text-align: center;
 }
 ul.cat li {
@@ -362,7 +362,7 @@ ol.type li {
 ol.type li a {
 	background: #f6f6f6;
 	color: #fff;
-	padding: 36px 14px;
+	padding: 16px 14px;
 }
 ol.type li a.active {
 	background: #121d1f;
@@ -385,7 +385,7 @@ ol.type li a:hover {
 	transition-duration: 0.8s;
 }
 .isotope-item {
-	margin-right: -1px;
+	margin-right: 0px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -405,11 +405,11 @@ ol.type li a:hover {
 }
 .portfolio-item {
 	margin: 20px 20px 20px 20px;
-	-webkit-transition: all 0.5s ease-out;
-	-moz-transition: all 0.5s ease-out;
-	-ms-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.8s ease-out;
+	-moz-transition: all 0.8s ease-out;
+	-ms-transition: all 0.8s ease-out;
+	-o-transition: all 0.8s ease-out;
+	transition: all 0.8s ease-out;
 }
 .portfolio-item:hover {
 	-webkit-transform: scale(1.1);
@@ -419,7 +419,7 @@ ol.type li a:hover {
 	transform: scale(1.1);
 }
 .portfolio-item .hover-bg {
-	height: 260px;
+	height: 200px;
 	overflow: hidden;
 	position: relative;
 }
@@ -465,8 +465,8 @@ ol.type li a:hover {
 	opacity: 1;
 }
 #portfolio i.fa {
-	font-size: 50px;
-	padding: 30px;
+	font-size: 0px;
+	padding: 0px;
 	color: #f6f6f6;
 }
 /* Contact Section */
