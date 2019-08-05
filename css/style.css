@@ -8,12 +8,12 @@ body, html {
 }
 h1 {
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 25px;
 }
 h1 strong {
 	font-weight: 900;
 	color: #4a5555;
-	font-size: 24px;
+	font-size: 25px;
 }
 h2 {
 	line-height: 20px;
@@ -21,7 +21,7 @@ h2 {
 	color: #4a5555;
 	font-weight: 400;
 	margin-bottom: 30px;
-	font-size: 24px;
+	font-size: 25px;
 }
 h3, h4 {
 	color: #4a5555;;
@@ -36,7 +36,7 @@ h5 {
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
-	line-height: 24px;
+	line-height: 25px;
 	font-family: Lato;
 }
 a {
