@@ -139,15 +139,15 @@ hr {
 }
 .navbar-custom .nav li.active {
 	outline: 0;
-	font-weight: 600;
+
 }
 .navbar-custom .nav li.active a {
 	background-color: rgba(255,255,255,.8);
-	font-weight: 600;
+
 }
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
-	font-weight: 600;
+
 }
 .btn-default {
 	color: #fff;
