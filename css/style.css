@@ -127,22 +127,27 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #b9d5d5;
+	color: #fff;
+	font-weight: 600;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #b9d5d5;
+	color: #fff;
+	font-weight: 600;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
+	font-weight: 600;
 }
 .navbar-custom .nav li.active a {
 	background-color: rgba(255,255,255,.8);
+	font-weight: 600;
 }
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
+	font-weight: 600;
 }
 .btn-default {
 	color: #fff;
