@@ -25,7 +25,7 @@ h2 {
 }
 h3, h4 {
 	color: #4b5b60;;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: 600;
 }
 h5 {
@@ -159,7 +159,7 @@ hr {
 	border-radius: 0;
 }
 .btn-linkedin {
-	  background: #0E76A8;
+	  background: #aac9d4;
 	  border-radius: 1;
 	  color: #fff;
 	  border-width: 0px;
@@ -170,7 +170,7 @@ hr {
 	  color: #fff;
 	}
 	.btn-linkedin:active, .btn-linkedin:hover {
-	  background: #084461;
+	  background: #bbd3dc;
 	  color: #fff;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
@@ -181,7 +181,7 @@ hr {
 .btn-primary {
 	color: #fff;
 	background-color: #aac9d4;
-	padding: 7px 12px;
+	padding: 9px 10px;
 	border-color: #aac9d4;
 	border-radius: 4;
 	font-size: 18px;
@@ -217,7 +217,8 @@ hr {
 #about {
 	margin-top: 60px;
 	padding-bottom: 10px;
-	background: #f6f8fe;
+	background: #fbfbfe;
+	background-image: linear-gradient(to bottom, #fbfbfe ,#f6f8fe);
 	width: 100%;
 }
 #about .about-text {
@@ -270,20 +271,21 @@ ol.type li {
 	margin-left: 0px;
 }
 ol.type li a {
-	background: #91adad;
+	background: #f2f4fd;
 	color: #fff;
 	padding: 14px 14px;
 }
 ol.type li a.active {
-	background: #121d1f;
+	background: #91adad;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #121d1f;
+	background: #91adad;
 	color: #fff;
 }
 .isotope-item {
 	z-index: 2
+
 }
 .isotope-hidden.isotope-item {
 	z-index: 1
@@ -298,6 +300,7 @@ ol.type li a:hover {
 	margin-right: 0px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+
 }
 .isotope {
 	-webkit-backface-visibility: hidden;
@@ -305,6 +308,7 @@ ol.type li a:hover {
 	-webkit-transition-property: height, width;
 	-moz-transition-property: height, width;
 	transition-property: height, width;
+
 }
 .isotope .isotope-item {
 	-webkit-backface-visibility: hidden;
@@ -312,14 +316,23 @@ ol.type li a:hover {
 	-webkit-transition-property: -webkit-transform, opacity;
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
+
 }
 .portfolio-item {
-	margin: 20px 20px 20px 20px;
+	background: #fff;
+	max-width:  250px;
+	max-height: 400px;
+	height: 350px;
+	padding: 20px 50px;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
+  	margin: 0rem auto;
+	margin-bottom: 10px;
+	margin-top: 20px;
+  	float: none;
 }
 .portfolio-item:hover {
 	-webkit-transform: scale(1.05);
@@ -327,14 +340,19 @@ ol.type li a:hover {
 	-ms-transform: scale(1.05);
 	-o-transform: scale(1.05);
 	transform: scale(1.05);
-}
-.portfolio-item .hover-bg {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	overflow: hidden;
 	position: relative;
 }
+.portfolio-item .hover-bg {
+	opacity: 1;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 10px;
+	position: relative;
+
+} 
+
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -378,7 +396,15 @@ ol.type li a:hover {
 #portfolio i.fa {
 	font-size: 0px;
 	padding: 0px;
+	margin: auto;
 	color: #f6f6f6;
+}
+
+.img-circle {
+	border-radius: 50%;
+	max-width:  100%;
+	max-height: 150px;
+	margin-bottom: 20px;
 }
 /* Resume Section */
 #resume {

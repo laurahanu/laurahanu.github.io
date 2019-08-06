@@ -26,6 +26,10 @@
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'> -->
 <!-- Header -->
 <!-- <header id="header">
@@ -106,14 +110,14 @@
 </div>
 
 <!-- Projects Section -->
-<div id="portfolio">
+<!-- <div id="portfolio">
   <div class="container">
     <div class="section-title text-center center ">
       <h1>Projects</h1>
       <hr>
     </div>
     <div  class="row  col-md-12" >
-      <div class="portfolio-item">s
+      <div class="portfolio-item">
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/fractal.png" title="Project description" rel="prettyPhoto">
@@ -125,7 +129,7 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://github.com/laurahanu/Improved-Wasserstein-GAN-application-on-MRI-images" title="Project description" > <!--  rel="prettyPhoto" -->
+            <div class="hover-bg"> <a href="https://github.com/laurahanu/Improved-Wasserstein-GAN-application-on-MRI-images" title="Project description" >
               <div class="hover-text">
                 <h4> WGAN-GP on MRI images </h4>
                 <small>Generated MRI images</small> </div>
@@ -134,7 +138,7 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/gaugan.png" title="Playing with GauGan" rel="prettyPhoto"> <!--  rel="prettyPhoto" -->
+            <div class="hover-bg"> <a href="img/portfolio/gaugan.png" title="Playing with GauGan" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>GANxperimenting</h4>
                 <small>Fun stuff</small> </div>
@@ -143,8 +147,7 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <!-- <a href="https://github.com/laurahanu"><img src="img/portfolio//autoenc.png" width="82" height="86" title="Autoencoder" alt="Flower"></a> -->
-            <div class="hover-bg"> <a href="https://github.com/laurahanu/2D-and-3D-Deep-Autoencoder"  title="Project description" >  <!--  rel="prettyPhoto" -->
+            <div class="hover-bg"> <a href="https://github.com/laurahanu/2D-and-3D-Deep-Autoencoder"  title="Project description" >
               <div class="hover-text">
                 <h4>3D Autoencoder on MRI images</h4>
                 <small>Project results</small>    </div>
@@ -154,15 +157,93 @@
   </div>
 </div>
 </div>
+</div> -->
+
+
+<!-- Card deck -->
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- Team -->
+<div id="portfolio" >
+  <div class="container" >
+
+        <h1 class="section-title  text-center center">Projects</h1>
+        <hr>
+
+        <div class="row">
+          <!-- <div  class="row" > -->
+            <!-- <div class="portfolio-item"> -->
+            <!-- Team member -->
+            <div class="col-sm-6 col-md-3 col-lg-3 web">
+                <div class="portfolio-item">
+                    <div class="card-body text-center">
+                        <a href="img/portfolio/autoenc.png"  title="Project description" rel="prettyPhoto">  <!--  rel="prettyPhoto" -->
+                          <p><img src="img/portfolio/autoenc.png"  class="img-responsive img-circle"  alt="Project Title"></p></a>
+                        <h4 class="card-title">3D autoencoder on MRI images</h4>
+                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                        <a href="#" class="btn btn-linkedin btn-sm">Read more<i ></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-sm-6 col-md-3 col-lg-3 web">
+                <div class="portfolio-item">
+                    <div class="card-body text-center">
+                        <a href="img/portfolio/gaugan.png"  title="Project description" rel="prettyPhoto">  <!--  rel="prettyPhoto" -->
+                          <p><img src="img/portfolio/gaugan.png"  class="img-responsive img-circle"  alt="Project Title"></p></a>
+                        <h4 class="card-title">Fun Stuff with GANs</h4>
+                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                        <a href="#" class="btn btn-linkedin btn-sm">Read more<i ></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-sm-6 col-md-3 col-lg-3 web">
+                <div class="portfolio-item">
+                    <div class="card-body text-center">
+                        <a href="img/portfolio/gen.png"  title="Project description" rel="prettyPhoto">  <!--  rel="prettyPhoto" -->
+                          <p><img src="img/portfolio/gen.png"  class="img-responsive img-circle"  alt="Project Title"></p></a>
+                        <h4 class="card-title">WGAN-GP on MRI images</h4>
+                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                        <a href="#" class="btn btn-linkedin btn-sm">Read more<i ></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-sm-6 col-md-3 col-lg-3 web">
+                <div class="portfolio-item">
+                    <div class="card-body text-center">
+                        <a href="img/portfolio/fractal.png"  title="Project description" rel="prettyPhoto">  <!--  rel="prettyPhoto" -->
+                          <p><img src="img/portfolio/fractal-small.png"  class="img-responsive img-circle"   alt="Project Title"></p></a>
+                        <h4 class="card-title">3D Fractal Forest Project</h4>
+                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                        <a href="#" class="btn btn-linkedin btn-sm">Read more<i ></i></a>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <!-- ./Team member -->
+        <!-- </div> -->
+    </div>
+  </div>
+  </div>
 </div>
+</div>
+
+<!-- Team -->
+
+<!-- Card deck -->
 <!-- Resume Section -->
 <div id="resume">
-  <div class="container">
+  <div class="row">
     <div class="section-title text-center center">
       <h1>Background</h1>
       <hr>
     </div>
-    <div class="row">
+    <div class="container">
       <div class="col-md-12">
         <ul class="timeline">
           <!-- Experience Section-->
@@ -216,7 +297,7 @@
             </li>
         </ul>
       </div>
-    </div>
+    </div
   </div>
 <!-- </div> -->
 <!-- <div>  -->
