@@ -596,6 +596,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer p {
 	font-size: 13px;
+	letter-spacing: 1px;
 }
 #footer a {
 	color: #fff;
