@@ -180,9 +180,9 @@ hr {
 }
 .btn-primary {
 	color: #fff;
-	background-color: #a4bac3;
+	background-color: #aac9d4;
 	padding: 7px 12px;
-	border-color: #a4bac3;
+	border-color: #aac9d4;
 	border-radius: 4;
 	font-size: 18px;
 	font-weight: 400;
@@ -248,7 +248,7 @@ hr {
 #about .social i.fa {
 	font-size: 32px;
 	padding: 4px 5px;
-	color: #a4bac3;
+	color: #aac9d4;
 	transition: all 0.5s;
 }
 
