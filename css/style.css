@@ -430,7 +430,7 @@ ol.type li a:hover {
 }
 .timeline>li {
 	position: relative;
-	margin-bottom:20px;
+	margin-bottom:10px;
 	min-height: 20px;
 }
 .timeline>li:before, .timeline>li:after {
@@ -507,7 +507,7 @@ ol.type li a:hover {
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
 	color: #629ca7;
-	font-size: 20px;
+	font-size: 18px;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 10px;
