@@ -216,16 +216,18 @@ hr {
 /* About Section */
 #about {
 	margin-top: 60px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	background: #fbfbfe;
 	background-image: linear-gradient(to bottom, #fbfbfe ,#f6f8fe);
 	width: 100%;
 }
 #about .about-text {
-	margin-left: 10px;
+	margin-left: 0px;
 	font-size: 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
 }
 #about img {
 	border-radius: 50%;
@@ -240,7 +242,7 @@ hr {
 }
 #about .social {
 	margin-top: 20px;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
 #about .social ul li {
 	display: inline-block;
@@ -322,7 +324,7 @@ ol.type li a:hover {
 	background: #fff;
 	max-width:  250px;
 	max-height: 400px;
-	height: 350px;
+	height: 370px;
 	padding: 20px 50px;
 	border: 1px solid #eee;
 	-webkit-transition: all 0.5s ease-out;
