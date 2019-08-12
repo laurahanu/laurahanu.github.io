@@ -25,7 +25,7 @@ h2 {
 }
 h3, h4 {
 	color: #4b5b60;;
-	font-size: 17px;
+	font-size: 13px;
 	font-weight: 600;
 }
 h5 {
@@ -95,11 +95,13 @@ hr {
 	background-color:  #a4bac3;
 	border-radius: 0px;
 	padding: 10px 10px;
+	color: #fff;
 }
 .navbar-custom .navbar-brand {
 	font-weight: 400;
 	font-size: 22px;
 	letter-spacing: 0.5px;
+	color: #fff;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
