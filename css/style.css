@@ -95,11 +95,13 @@ hr {
 	background-color:  #a4bac3;
 	border-radius: 0px;
 	padding: 10px 10px;
+	font-size: 15px;
 	color: #fff;
+	font-weight: 400;
 }
 .navbar-custom .navbar-brand {
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 24px;
 	letter-spacing: 0.5px;
 	color: #fff;
 }
