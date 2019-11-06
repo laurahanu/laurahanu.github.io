@@ -80,7 +80,7 @@ hr {
 	position: relative;
 	background: #fff;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	border: 0;
 }
 /* Navigation */
@@ -250,9 +250,9 @@ hr {
 	border-radius: 100%;
 	margin-top: 0px;
 	margin-right: 0px;
-	margin-bottom: 10px;
-	width: 300px;
-	height: 300px;
+	margin-bottom: 0px;
+	width: 275px;
+	height: 275px;
 	display: inline-block;
 
 }
