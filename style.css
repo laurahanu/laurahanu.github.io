@@ -648,7 +648,11 @@ a {
 .post-content li {
     margin-bottom: 10px;
 }
-
+.post-title {
+    font-size: 44px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
 .post-meta {
     font-size: 16px;
     color: #666;
