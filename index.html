@@ -2,355 +2,92 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Laura Hanu - Data scientist & AI enthusiast</title>
-  <link rel="icon" href="img/favicon.jpeg">
-  <meta name="description" content="Personal page & blog">
-  <meta name="author" content="Laura Hanu">
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <!-- Stylesheet
-    ================================================== -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Hanu</title>
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145437255-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-145437255-1');
-  </script>
-  <!-- Navigation -->
-  <div id="nav">
-    <nav class="navbar navbar-custom">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-          <a class="navbar-brand page-scroll" href="#page-top">Laura Hanu</a> </div>
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-          <ul class="nav navbar-nav">
-            <li class="hidden"> <a href="#page-top"></a> </li>
-            <li> <a class="page-scroll" href="#about">About</a> </li>
-            <li> <a class="page-scroll" href="#portfolio">Projects</a> </li>
-            <li> <a class="page-scroll" href="#resume">Timeline</a> </li>
-            <li> <a class="page-scroll" href="https://laurahanu.github.io/blog/">Blog</a> </li>
-            <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-
-  <!-- About Section -->
-  <div id="about">
+<body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145437255-1"></script>
     <div class="container">
-      <div class="section-title text-center center col-md-8 col-md-offset-2">
-        <h1>About me</h1>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center "><img src="img/about.jpg" class="img-responsive"></div>
-        <div class="col-md-8 col-md-offset-2">
-          <div class="about-text">
+        <header>
+            <a class="logo" href="index.html">👾</a>
+            <nav>
+                <a href="index.html" class="active">about</a>
+                <a href="timeline.html" class="active">timeline</a>
+                <a href="blog.html" class="active">blog</a>
+                <button id="darkModeToggle">🌚</button>
+            </nav>
+        </header>
+        <main>
+            <div class="intro-container">
 
-            <p style="text-align: center"> I am currently a computer vision engineer at <a style="color:#5593a9" href="https://www.unitary.ai/">Unitary</a> where I build computer vision models to ensure safe media content online.</p>
-            <p style="text-align: center"> Previously, I was research assistant in verification of deep learning working on distributional robustness to semantic perturbations at University of Oxford. You can read our <a style="color:#5593a9" href="https://arxiv.org/pdf/2001.11055.pdf">paper</a> here. </><p>
-            <p style="text-align: center"> I also worked as a data scientist at <a style="color:#5593a9" href="https://visulytix.com">Visulytix</a> for almost 2 years working on developing and building deep learning models for healthcare. </p>
-              <p style="text-align: center">  During my MSc in Neurotechnology at Imperial College London, I was part of Dr. Anil Bharath's <a style="color:#5593a9" href="http://www.bicv.org/home/more-about-bicv/">BICV</a> group, working on  <a style="color:#5593a9" href="./static/MastersDissertation.pdf" ><i></i>3D unsupervised deep learning models.</a>
-<!--             <p style="text-align: center">Some of my research interests include AI safety & explainability, neurotechnology and the underlying mechanisms of imagination and creativity, artificial or not :).</p> -->
-            <!-- <p style="text-align: center">In my spare time I also like to read (some <a style="color:#5593a9" href="https://laurahanu.github.io/blog/recommended-fiction-books/2019-08-16-favourite-fiction-books/">fiction</a> and <a style="color:#5593a9" href="https://laurahanu.github.io/blog/AI-Safety-recommended-books/2019-08-19-recommended-nonfiction-books/">non-fiction</a> favourites here) and try be creative (e.g. drawing, puzzles, writing).</p> -->
-            <p style="text-align: center">  My main interests are in AI safety & explainability, unsupervised learning, and the  underlying mechanisms of creativity, artificial or not :).</p>
-
-          </div>
-          <div class="social col-md-8 col-md-offset-2 text-center">
-            <ul>
-              <li><a href="https://twitter.com/HanuLaura"><i class="fa fa-twitter" ></i></a></li>
-              <li><a href="https://github.com/laurahanu"><i class="fa fa-github" ></i></a></li>
-              <li><a href="https://www.linkedin.com/in/laura-hanu-a0941691/"><i class="fa fa-linkedin" ></i></a></li>
-            </ul>
-          </div>
-          <p class="col-md-8 col-md-offset-2 text-center">
-            <a href="./static/CV.pdf" class="btn btn-primary"><i class="fa fa-download"></i> CV </a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Projects Section -->
-  <div id="portfolio">
-    <div class="container">
-      <h1 class="section-title  text-center center">Projects</h1>
-      <hr>
-      <div class="row">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="card-body text-center">
-              <a href="img/portfolio/autoenc.png" title="Project description" rel="prettyPhoto">
-                <!--  rel="prettyPhoto" -->
-                <p><img src="img/portfolio/autoenc.png" class="img-responsive img-circle" alt="Project Title"></p>
-              </a>
-              <h4 class="card-title">2D & 3D Autoencoder</h4>
-              <p class="card-text">As part of my MSc <a style="color:#5593a9" href="./static/MastersDissertation.pdf" ><i></i>Thesis</a>, I trained a 3D autoencoder to learn deep representations of the MRI data.</p>
-              <a href="https://github.com/laurahanu/2D-and-3D-Deep-Autoencoder" class="btn btn-linkedin btn-sm">Github Repo<i></i></a>
+                <div class="intro-text">
+                    <div class="profile-info">
+                        <div class="profile-picture">
+                            <img src="https://pbs.twimg.com/profile_images/1038744728139968513/x0IOFKp3_400x400.jpg"
+                                alt="Laura's profile picture">
+                        </div>
+                        <h1>laura hanu </h1>
+                    </div>
+                    <p>I like to research, build and deploy machine learning systems that can meaningfully add value to
+                        our world. Currently building multi-modal models that can understand what's harmful at <a href="https://www.unitary.ai/">Unitary</a> .</p>
+                    <div class="keyword-section">
+                        <span class="keyword-label">keywords: </span>
+                        <span id="keyword-display"></span>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="card-body text-center">
-              <a href="img/portfolio/gen.png" title="Project description" rel="prettyPhoto">
-                <!--  rel="prettyPhoto" -->
-                <p><img src="img/portfolio/gen.png" class="img-responsive img-circle" alt="Project Title"></p>
-              </a>
-              <h4 class="card-title">WGAN-GP on MRI images</h4>
-              <p class="card-text">Generated MRI images using a generative adversarial model. Further info <a style="color:#5593a9" href="./static/MastersDissertation.pdf" ><i></i>here</a>.</p>
-              <a href="https://github.com/laurahanu/Improved-Wasserstein-GAN-application-on-MRI-images" class="btn btn-linkedin btn-sm">Github Repo<i></i></a>
+            <section class="highlights">
+                <h2>highlights</h2>
+                <p>⚖️ Blog series on multi-node ML: <a href="https://medium.com/@laura.hanu10/intro-to-multi-node-machine-learning-2-using-slurm-37acbcebf4f9"> How to use Slurm</a></p>
+                <p>🤹 Blog series on multi-node ML: <a href="https://medium.com/unitary/intro-to-multi-node-machine-learning-1-setting-up-an-hpc-cluster-915445c11fba">How to set up a cluster</a></p>
+                <p>✍️ <a href="https://unitaryai.github.io/vtc-paper/">VTC</a>: released multi-modal dataset & new method to learn from comments</p>
+                <p>🙊 <a href="https://github.com/unitaryai/detoxify">Detoxify</a>, a library to automatically detect toxic text, featured in <a href="https://www.scientificamerican.com/article/can-ai-identify-toxic-online-content/">Scientific American </a></p>
+            </section>
+        </main>
+        <footer class="copyright-footer">
+            <div class="social-links">
+                <div class="socials">
+                <a href="https://github.com/laurahanu" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                </div>
+                <a href="https://www.linkedin.com/in/laura-hanu-a0941691/" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                </a>
+                <a href="https://x.com/HanuLaura" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1227" viewBox="0 0 1200 1227" fill="none">
+                        <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/>
+                        </svg>
+                </a>
+                <a href="https://scholar.google.com/citations?user=07hm3DYAAAAJ&hl=en" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" />
+                    </svg>
+                </a>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="card-body text-center">
-              <a href="img/portfolio/gaugan.png" title="Project description" rel="prettyPhoto">
-                <!--  rel="prettyPhoto" -->
-                <p><img src="img/portfolio/gaugan.png" class="img-responsive img-circle" alt="Project Title"></p>
-              </a>
-              <h4 class="card-title">Fun Stuff with GANs</h4>
-              <p class="card-text">This is an ongoing personal project, where I basically have some fun applying latest GANs.</p>
-              <a href="#" class="btn btn-linkedin btn-sm">Coming soon...<i></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="card-body text-center">
-              <a href="img/portfolio/fractal.png" title="Project description" rel="prettyPhoto">
-                <!--  rel="prettyPhoto" -->
-                <p><img src="img/portfolio/fractal-small.png" class="img-responsive img-circle" alt="Project Title"></p>
-              </a>
-              <h4 class="card-title">3D Fractal Forest Project</h4>
-              <p class="card-text">I modelled a 3D fractal phantom to resemble vasculature in wave experiments.</p>
-              <a href="#" class="btn btn-linkedin btn-sm">Coming soon...<i></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+            <p>&copy; 2024 Laura Hanu</p>
+        </footer> 
     </div>
-  </div>
-
-  <!-- Resume Section -->
-  <div id="resume">
-    <div class="container">
-      <div class="section-title text-center center">
-        <h1>Background</h1>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="timeline">
-            <!-- Experience Section-->
-            <li>
-              <div class="timeline-image">
-                <h4> May 2020 <br>
-                  - <br>
-                  ongoing </h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Unitary</h4>
-                  <h4 class="subheading">Computer Vision Engineer</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Building computer vision models to detect undesirable content in images and videos.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4> Dec 2019 <br>
-                  - <br>
-                  Mar 2020 </h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>University of Oxford</h4>
-                  <h4 class="subheading">Researcher in Deep Learning</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Working on exploring distributional robustness to generated semantic perturbations using GANs.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <h4> 2019 <br>
-                  - <br>
-                  2017 </h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Visulytix</h4>
-                  <h4 class="subheading">Data Scientist</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Building & implementing state-of-the-art deep learning models for 3D retinal imagery.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>2017 <br>
-                  - <br>
-                  2016 </h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Imperial College London</h4>
-                  <h4 class="subheading">Research Project</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Trained a 2D and 3D autoencoder to learn deep representations of the MRI data. Masters Thesis <a style="color:#5593a9" href="./static/MastersDissertation.pdf" ><i></i> here. </a></p></p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <h4>2016 <br>
-                  - <br>
-                  2016 </h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>King's College London</h4>
-                  <h4 class="subheading">Research Assistant</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Designed a 3D network of fractal trees in C++ for MagneticResonance Elastography experiments to model arterial branching.</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="container">
-        <div class="section-title text-center center">
-          <h1>Education</h1>
-          <hr>
-        </div>
-      </div>
-      <div class="container">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <!-- Education Section-->
-            <li>
-              <div class="timeline-image">
-                <h4>2017 <br>
-                  - <br>
-                  2016 </h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Imperial College London</h4>
-                  <h4 class="subheading">MSc Bioengineering with Neurotechnology</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Research Thesis: “Training unsupervised deep learning algorithmson 2D and 3D medical data”.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>2016 <br>
-                  - <br>
-                  2013 </h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>King's College London</h4>
-                  <h4 class="subheading">BEng Biomedical Engineering</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Research project: “Inferring micro-structural information frommacroscopic elastic parameters determined from shear wavescattering in fractal-like media”.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <h4> 2013 <br>
-                  - <br>
-                  2009 </h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Mihai Viteazul National College</h4>
-                  <h4 class="subheading">High School Degree</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted"> National Baccalaureate Diploma: 97.3% Overall, including Mathematics and Physics.</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div id="contact" class="text-center">
-      <div class="container">
-        <div class="section-title">
-          <h2>Contact</h2>
-          <hr>
-          <div class="col-md-8 col-md-offset-2">
-            <a href="mailto:laura.hanu10@gmail.com">
-              <h3> laura.hanu10 ' at ' gmail ' . ' com </h3>
-            </a>
-            <div class="social">
-              <ul>
-                <li><a href="https://twitter.com/HanuLaura"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://github.com/laurahanu"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/laura-hanu-a0941691/"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer Section -->
-    <div id="footer">
-      <div class="container text-center">
-        <div class="fnav">
-          <p>Copyright &copy; 2019 Laura Hanu.</p>
-        </div>
-      </div>
-    </div>
-
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
 </body>
-
+<script src="script.js"></script>
 </html>
