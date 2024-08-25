@@ -21,7 +21,6 @@
 .keyword-label {
     font-weight: light;
     margin-right: 10px;
-    /* Adds some space between "Keywords:" and the changing words */
 }
 
 #keyword-display {
@@ -31,17 +30,14 @@
 
 .dark-mode .keyword-section {
     color: #ebebeb;
-    /* Light color for dark mode */
 }
 
 .dark-mode .keyword-label {
     color: #ebebeb;
-    /* Slightly dimmer color for the label in dark mode */
 }
 
 .dark-mode #keyword-display {
     color: #ebebeb;
-    /* Bright color for the changing keywords in dark mode */
 }
 
 .profile-info {
@@ -217,8 +213,8 @@ html {
     background-image:
         linear-gradient(to bottom right,
             rgba(255, 255, 255, 0.4) 0%,
-            rgba(252, 228, 236, 0.4) 25%,
-            rgba(237, 232, 252, 0.4) 50%,
+            rgba(251, 219, 233, 0.4) 25%,
+            rgba(233, 226, 253, 0.4) 50%,
             rgba(253, 243, 231, 0.4) 75%,
             rgba(255, 255, 255, 0.4) 100%);
     background-repeat: repeat;
