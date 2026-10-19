@@ -1,45 +1,19 @@
-const darkModeToggle = document.getElementById('darkModeToggle');
-const body = document.body;
+(() => {
+    const toggle = document.getElementById('darkModeToggle');
 
-darkModeToggle.addEventListener('click', () => {
-    body.classList.toggle('dark-mode');
-    // Optionally, save the user's preference in localStorage
-    localStorage.setItem('darkMode', body.classList.contains('dark-mode'));
-});
+    function setTheme(dark) {
+        document.body.classList.toggle('dark-mode', dark);
+        const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+        toggle.setAttribute('aria-label', label);
+        toggle.title = label;
+    }
 
-// Check for saved dark mode preference on page load
-if (localStorage.getItem('darkMode') === 'true') {
-    body.classList.add('dark-mode');
-}
+    setTheme(localStorage.getItem('darkMode') === 'true');
+    toggle.addEventListener('click', () => {
+        const dark = !document.body.classList.contains('dark-mode');
+        setTheme(dark);
+        localStorage.setItem('darkMode', dark);
+    });
 
-const keywords = [
-    "computer vision",
-    "NLP",
-    "multi-modal",
-    "video understanding",
-    "generative models",
-    "llms",
-    "distributed systems",
-];
-
-let currentKeywordIndex = 0;
-const keywordDisplay = document.getElementById('keyword-display');
-
-function changeKeyword() {
-    keywordDisplay.style.opacity = 0;
-
-    setTimeout(() => {
-        keywordDisplay.textContent = keywords[currentKeywordIndex];
-        keywordDisplay.style.opacity = 1;
-
-        currentKeywordIndex = (currentKeywordIndex + 1) % keywords.length;
-    }, 500);
-}
-changeKeyword();
-setInterval(changeKeyword, 2000);
-
-document.addEventListener('DOMContentLoaded', function () {
-    const yearSpan = document.querySelector('.copyright-footer p');
-    const currentYear = new Date().getFullYear();
-    yearSpan.innerHTML = `&copy; ${currentYear} Laura Hanu`;
-});
+    document.querySelector('.copyright-footer p').textContent = `© ${new Date().getFullYear()} Laura Hanu`;
+})();
