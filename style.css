@@ -10,10 +10,6 @@
     padding-right: 10px;
 }
 
-.intro-text .interests {
-    margin: 8px 0 0;
-}
-
 .profile-info {
     display: flex;
     align-items: center;
@@ -106,7 +102,7 @@ html {
     background-image:
     linear-gradient(to bottom right,
     rgba(255, 255, 255, 0.4) 0%,
-    rgba(251, 219, 233, 0.4) 25%,
+    rgba(248, 222, 233, 0.4) 25%,
     rgba(233, 226, 253, 0.4) 50%,
     rgba(253, 243, 231, 0.4) 75%,
     rgba(255, 255, 255, 0.4) 100%);
